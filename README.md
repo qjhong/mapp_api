@@ -1,4 +1,4 @@
-# MAPP_API: API for the Materials Properties Prediction project
+# API for the Materials Properties Prediction (MAPP) project
 
 ![alt text](https://github.com/qjhong/mapp_api/blob/1ac350474bb49f57128f6fa27aef97b27d0206d3/MAPP.png "MAPP")
 
