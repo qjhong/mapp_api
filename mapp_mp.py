@@ -32,7 +32,7 @@ speed test:
 10000: 303s
 '''
 
-df_mp = pd.read_csv('predictions.csv', names=['melting_temperature_in_Kelvin'])
+df_mp = pd.read_csv('predictions.csv', names=['melting_temperature_in_kelvin'])
 df = pd.concat([df_formula, df_mp], axis=1)
 
 df.to_csv('output.csv')
