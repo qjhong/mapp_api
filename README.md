@@ -1,6 +1,8 @@
 # MAPP_API: API for the Materials Properties Prediction project
 
-## Melting temperature prediction on seconds!
+![alt text](https://github.com/qjhong/mapp_api/blob/1ac350474bb49f57128f6fa27aef97b27d0206d3/MAPP.png "MAPP")
+
+## Melting temperature prediction in seconds!
 
 Follow these simple steps:
 1. Edit the file "chemical_formula.csv" to include all chemical formula. The upper limit of entries is 10,000. Read the file for examples.
