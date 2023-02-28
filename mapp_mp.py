@@ -35,3 +35,6 @@ os.system("""cat predictions | sed 's/,/\\n/g' | cut -d':' -f2 | sed 's/}//' | s
 #%%
 df_mp = pd.read_csv('predictions.csv', names=['melting_temperature'])
 df = pd.concat([df_formula, df_mp], axis=1)
+
+df.to_csv('output.csv')
+os.system("""rm predict*""")
