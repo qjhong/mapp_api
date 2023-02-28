@@ -22,18 +22,17 @@ for i in range(df_formula.shape[0]):
 data_str += "]\'"
 comm +=  data_str + "> predictions "
 
-#%%    
 response = os.system(comm.replace('\n',''))
 os.system("""cat predictions | sed 's/,/\\n/g' | cut -d':' -f2 | sed 's/}//' | sed 's/]//' > predictions.csv""")
 
 '''
+speed test:
 10: 7s
 1000: 34s
 10000: 303s
 '''
 
-#%%
-df_mp = pd.read_csv('predictions.csv', names=['melting_temperature'])
+df_mp = pd.read_csv('predictions.csv', names=['melting_temperature_in_Kelvin'])
 df = pd.concat([df_formula, df_mp], axis=1)
 
 df.to_csv('output.csv')
