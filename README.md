@@ -1,6 +1,6 @@
 # API for the Materials Properties Prediction (MAPP) project
 
-![alt text](https://github.com/qjhong/mapp_api/blob/1ac350474bb49f57128f6fa27aef97b27d0206d3/MAPP.png "MAPP")
+![alt text](https://github.com/qjhong/mapp_api/blob/c4ce2cd77af756e3e75c363d89594347a9181d1a/MAPP.png "MAPP")
 
 ## Melting temperature prediction in seconds!
 
