@@ -22,7 +22,8 @@ headers = {'content-type': 'application/json'}
 r = requests.post(url, data=payload, headers=headers)
 
 df_mp = pd.DataFrame(str(r.content).split('{"melting temperature\": ')[1:], columns=['mp'])
-df_mp['melting_temperature_in_kelvin'] = df_mp.apply(lambda x: float( x['mp'].split("}")[0] ), axis=1)
+df_mp['melting_temperature_in_kelvin'] = df_mp.apply(lambda x: float( x['mp'].split(",")[0] ), axis=1)
+df_mp['standard_error_in_kelvin'] = df_mp.apply(lambda x: float( x['mp'].split(":")[1].split("}")[0] ), axis=1)
 
 df = pd.concat([df_formula, df_mp.drop(columns='mp')], axis=1)
 
