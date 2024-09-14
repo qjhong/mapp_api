@@ -19,3 +19,9 @@ Number of entries                          |Time [seconds]                      
 10                            |7         |
 1,000                           |34         |
 10,000|303|
+
+## Cite this project:
+
+<p>Si-Da Xue and Qi-Jun Hong, Materials Properties Prediction (MAPP): Empowering the Prediction of Material Properties Solely Based on Chemical Formulas, Materials, 2024. <a href="https://doi.org/10.3390/ma17174176"> Download</a>. </p>
+<p>Qi-Jun Hong, A melting temperature database and a neural network model for melting temperature prediction, arXiv, 2021. <a href="https://arxiv.org/abs/2110.10748"> Download</a>. </p>
+<p>Qi-Jun Hong, Sergey V Ushakov, Axel van de Walle, and Alexandra Navrotsky, Melting temperature prediction using a graph neural network model: From ancient minerals to new materials, PNAS, 2022. <a href="https://doi.org/10.1073/pnas.2209630119"> Download</a>. </p>
